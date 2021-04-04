@@ -1,0 +1,25 @@
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+/* Start purging... */
+@tailwind components;
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap"); */
+/* Stop purging. */
+
+html,
+body {
+  background-color: #ecf1ee;
+  font-family: Montserrat, sans-serif;
+}
+
+/* Write your own custom component styles here */
+/* .btn-blue {
+  @apply px-4 py-2 font-bold text-white bg-green-700 rounded;
+} */
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */

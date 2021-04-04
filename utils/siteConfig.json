@@ -1,0 +1,16 @@
+{
+  "title": "Change me on utils/siteConfig",
+  "Version": "1.0",
+  "NAV_LINKS": [
+    {
+      "name": "About",
+      "route": "/about"
+    },
+    {
+      "name": "Contact",
+      "route": "/contact"
+    }
+  ],
+  "LOGIN_LINK": "/auth/login",
+  "SIGNUP_LINK": "/auth/signup"
+}

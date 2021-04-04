@@ -1,0 +1,17 @@
+import Head from "next/head";
+import config from "@utils/siteConfig";
+
+export default function AuthenticatedTemplate({ title, children }) {
+  return (
+    <div className="relative">
+      <Head>
+        <title>{title || config.title}</title>
+        <meta
+          name="viewport"
+          content="initial-scale=1.0, width=device-width"
+        ></meta>
+      </Head>
+      {children}
+    </div>
+  );
+}
